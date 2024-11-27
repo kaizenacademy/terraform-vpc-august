@@ -1,5 +1,6 @@
 # terraform-vpc-august
 
+```hcl
 module "august" {
   source  = "kaizenacademy/august/vpc"
   version = "2.0.0"
@@ -10,3 +11,4 @@ module "august" {
   subnet3_cidr = "10.0.3.0/24"
   ip_on_launch = true
 }
+```
