@@ -21,3 +21,7 @@ variable subnet3_cidr {
 variable ip_on_launch {
     type = bool
 }
+
+variable port {
+    type = list
+}
